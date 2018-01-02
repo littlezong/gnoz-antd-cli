@@ -1,0 +1,33 @@
+.search-blank{
+  width: 0;
+  padding: 0;
+  border: none;
+}
+
+.search-blank-uncollapsed{
+  position: relative;
+  padding-right: 24px;
+
+  .anticon-search{
+    position: absolute;
+    top: 18%;
+    right: 35px;
+  }
+
+  .search-blank{
+    width: 200px;
+    height: 30px;
+    padding-left: 10px;
+    padding-right: 30px;
+    border: none;
+    border-radius: 100px;
+    background: #f0f2f5;
+    box-shadow: none;
+    outline: none;
+    transition: width .5s;
+
+    &:focus + i{
+      color: #1890ff;
+    }
+  }
+}
