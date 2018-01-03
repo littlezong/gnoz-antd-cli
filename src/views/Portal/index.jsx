@@ -98,7 +98,7 @@ export default class Portal extends React.Component {
 		);
 	}
 	
-	onOpenChange = (openKeys) => {
+	onOpenChange = openKeys => {
 		const latestOpenKey = openKeys.find(key => this.state.openKeys.indexOf(key) === -1);
 		if (this.rootSubmenuKeys.indexOf(latestOpenKey) === -1) {
 			this.setState({ openKeys });
