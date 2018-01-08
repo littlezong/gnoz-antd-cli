@@ -1,5 +1,6 @@
 从零开始搭建的基于**webpack + react + react-dom-router + antd + es6/7 + less**工程项目，
 表示不想再搭建第二次了，简直吐血。
+[这里是demo](https://littlezong.github.io/gnoz-antd-cli/dist)
 不管怎么说，这也算一套脚手架了，可以直接拿来用：
 
  ![预览](./preview.png)
