@@ -1,6 +1,6 @@
 const development = {
 	port: 8035,
-	autoOpenBrowser: false,
+	autoOpenBrowser: true,
 	isAnalyseBundle: false
 };
 
